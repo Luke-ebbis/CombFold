@@ -11,9 +11,11 @@ make = "bash install.sh"
 
 [dependencies]
 libboost = ">=1.84.0,<1.85"
-numpy = ">=1.26.4,<1.27"
 make = ">=4.3,<5"
-python = ">=3.12.3,<3.13"
 cxx-compiler = ">=1.7.0,<1.8"
 libboost-devel = ">=1.84.0,<1.85"
 boost = ">=1.84.0,<1.85"
+colabfold = ">=1.5.5,<1.6"
+numpy = ">=1.26.4,<1.27"
+biopython = ">=1.82,<2"
+scipy = ">=1.13.0,<1.14"
