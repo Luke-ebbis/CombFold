@@ -37,5 +37,5 @@ CombinatorialAssembler/.vscode/*
 */.idea/*
 paper_resources/figures/output
 .pixi
-
+scripts/libs/__pycache__/
 test
