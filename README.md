@@ -36,31 +36,15 @@ The Combinatorial assembler is written in C++, while the supporting scripts requ
 + macOS: Ventura (13.3.1)
 + Linux: Debian 10
 
-#### C++ Dependencies 
-The Combinatorial assembler depends on Boost which can be installed using:
-```
-# For Linux
-sudo apt-get install libboost-all-dev
+then install pixi
 
-# For MacOS
-brew install boost
-```
-In case boost is not in the compiler default include path, modify the BOOST_INCLUDE and BOOST_LIB variables on top of the Makefile for the installation destination.
-
-#### Python Dependencies
-The supporting scripts depend on these Python3 packages, which can be installed using pip:
-```
-numpy
-biopython
-scipy
+```bash
+curl -fsSL https://pixi.sh/install.sh | bash
 ```
 
-## Installation Guide (locally):
-```
-git clone https://github.com/dina-lab3D/CombFold.git
-cd CombFold/CombinatorialAssembler
-make
-```
+
+build using `pixi run make`
+
 Installation should take ~3 minutes
 
 # Running CombFold
