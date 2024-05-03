@@ -1,0 +1,2 @@
+cd CombinatorialAssembler
+make

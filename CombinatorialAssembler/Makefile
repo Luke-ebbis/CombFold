@@ -1,5 +1,5 @@
-BOOST_INCLUDE = /opt/homebrew/include
-BOOST_LIB = /opt/homebrew/lib/
+BOOST_INCLUDE = ../.pixi/envs/default/include
+BOOST_LIB = ../.pixi/envs/default/lib
 
 CC=g++
 # use -Wno-deprecated-declarations to suppress warnings from boost

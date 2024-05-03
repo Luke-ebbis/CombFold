@@ -1,0 +1,19 @@
+[project]
+name = "Combfold"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["B Shor et al"]
+channels = ["conda-forge", "bioconda"]
+platforms = ["linux-64"]
+
+[tasks]
+make = "bash install.sh"
+
+[dependencies]
+libboost = ">=1.84.0,<1.85"
+numpy = ">=1.26.4,<1.27"
+make = ">=4.3,<5"
+python = ">=3.12.3,<3.13"
+cxx-compiler = ">=1.7.0,<1.8"
+libboost-devel = ">=1.84.0,<1.85"
+boost = ">=1.84.0,<1.85"
