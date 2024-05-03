@@ -47,6 +47,8 @@ build using `pixi run make`
 
 Installation should take ~3 minutes
 
+
+
 # Running CombFold
 ## Stage 1 - Defining subunits
 The first step is to divide the complex into subunits and create the `subunits.json` file that defines the complex. Subunits would not change their structure during the assembly (only their position relative to other subunits structures), so we would like to choose subunits that are a single structured domain.
