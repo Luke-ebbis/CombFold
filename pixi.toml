@@ -27,3 +27,6 @@ gcc = ">=12.3.0,<12.4"
 #jaxlib = ">=0.4.23,<0.5"
 #cuda-nvcc = ">=12.4.131,<12.5"
 #rocm-opencl = ">=6.0.2,<6.1"
+
+[system-requirements]
+linux="4.18"
