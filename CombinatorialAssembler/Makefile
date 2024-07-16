@@ -1,5 +1,5 @@
-BOOST_INCLUDE = ../.pixi/envs/default/include
-BOOST_LIB = ../.pixi/envs/default/lib
+BOOST_INCLUDE = $$CONDA_PREFIX/include
+BOOST_LIB = $$CONDA_PREFIX/lib
 
 CC=g++
 # use -Wno-deprecated-declarations to suppress warnings from boost
